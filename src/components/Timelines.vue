@@ -7,7 +7,13 @@
 </style>
 
 <template>
+  
+  <img data-aos="zoom-in" src="@/assets/basket_wallpaper.png" class="w-12/12 absolute pr-auto">
+
   <section class="w-10/12 mx-auto mt-16 flex flex-wrap flex-row gap-12">
+
+    <img data-aos="zoom-in" src="@/assets/soccer_design.png" class="w-12/12 absolute ml-auto">
+   
     <template v-for="(timeline, x) in timelines" :key="x">
       <div 
         data-aos="zoom-in"
@@ -21,6 +27,8 @@
       </div>
     </template>
   </section>
+
+
 </template>
 
 <script setup>
