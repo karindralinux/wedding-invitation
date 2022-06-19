@@ -35,6 +35,7 @@
         <h1 class="lovers-quarre-font font-semibold text-5xl lg:text-6xl my-5 text-black">{{ couples.join(' & ') }}</h1>
         <p class="font-medium text-black">{{ weddingDate }}</p>
        <!-- CTA -->
+      <!-- cekgi -->
         <button 
           type="buton" 
           @click="openInvitation"
