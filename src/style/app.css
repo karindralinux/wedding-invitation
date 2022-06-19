@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
 
 p,
 a,
@@ -25,6 +26,18 @@ button {
 
 .rancho-font {
 	font-family: 'Rancho', cursive;
+}
+
+.poppins-font {
+	font-family: 'Poppins', cursive;
+}
+
+.lovers-quarre-font {
+	font-family: 'Lovers', cursive;
+}
+
+.roboto-font {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Global class */

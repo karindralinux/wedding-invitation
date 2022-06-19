@@ -13,7 +13,7 @@
         data-aos="zoom-in"
         data-aos-delay="600"
         class="bg-gray-100 shadow-xl p-3 rounded-xl w-full mx-auto text-center text-sm text-slate-800 mb-4">
-        <h2 class="mb-3 kalam-font text-2xl text-amber-500">{{ timeline.title }}</h2>
+        <h2 class="mb-3 rancho-font text-2xl text-amber-500">{{ timeline.title }}</h2>
         <p>{{ timeline.date }}</p>
         <p>{{ timeline.time }}</p>
         <p class="font-bold text-amber-500 my-2">{{ timeline.location }}</p>

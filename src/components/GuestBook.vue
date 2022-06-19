@@ -1,7 +1,7 @@
 <style scoped>
 
 .frame {
-  @apply w-4/12 rotate-180;
+  @apply w-6/12 rotate-180;
 }
 
 .input-wrapper {
@@ -9,7 +9,7 @@
 }
 
 label {
-  @apply w-full text-amber-500 text-xl;
+  @apply w-full text-black text-sm;
 }
 
 input, textarea, select, option {
@@ -19,8 +19,8 @@ input, textarea, select, option {
 </style>
 
 <template>
-  <section class="w-full relative bg-slate-100 pb-0">
-    <section class="container-section bg-gradient-to-b from-amber-200 to-gray-50">
+  <section class="w-full bg-gradient-to-b from-orange-500 to-yellow-500">
+    <section class="container-section">
       <HeaderSection title="Guest Book" />
       <!-- Form -->
       <form 
@@ -31,12 +31,12 @@ input, textarea, select, option {
         <Alert :statusResponse="statusResponse" :showAlert="showAlert" v-on:close="showAlert = false" />
         <!-- Guest Name -->
         <div class="input-wrapper" data-aos="zoom-in">
-          <label for="GuestName" class="kalam-font">Nama</label>
+          <label for="GuestName" class="roboto-font">Nama</label>
           <input v-model="GuestName" placeholder="Nama lengkap anda" name="GuestName" id="GuestName" type="text" required>
         </div>
         <!-- Guest Status -->
         <div class="input-wrapper" data-aos="zoom-in">
-          <label for="GuestStatus" class="kalam-font">Kehadiran</label>
+          <label for="GuestStatus" class="roboto-font">Kehadiran</label>
           <select v-model="GuestStatus" name="GuestStatus" id="GuestStatus" required>
             <option value="Hadir">Hadir</option>
             <option value="Tidak Hadir">Tidak Hadir</option>
@@ -44,7 +44,7 @@ input, textarea, select, option {
         </div>
         <!-- Guest Message -->
         <div class="input-wrapper" data-aos="zoom-in">
-          <label for="GuestMessage" class="kalam-font">Pesan</label>
+          <label for="GuestMessage" class="roboto-font">Pesan</label>
           <textarea placeholder="Tuliskan pesan anda disini" v-model="GuestMessage" name="GuestMessage" id="GuestMessage" cols="30" rows="5" required></textarea>
         </div>
         <!-- Submit -->
@@ -56,14 +56,14 @@ input, textarea, select, option {
         </button>
       </form>
       <!-- Gift Section -->
-      <Gift></Gift>
+      <!-- <Gift></Gift> -->
       <!-- Message Box -->
       <!--MessagesBox :messages="messages" -->
       <!-- Frames -->
-      <div class="w-full items-center flex justify-between mt-6">
-        <img class="w-2/12" src="@/assets/leaf-frame.png" alt="frame">
-        <p class="text-sm">Diundang &copy; 2022</p>
-        <img class="w-2/12" src="@/assets/leaf-frame-mirror.png" alt="frame">
+      <div class="w-full content-center flex justify-between mt-6">
+        <!-- <img class="w-2/12" src="@/assets/leaf-frame.png" alt="frame"> -->
+        <p class="text-sm text-center">Diundang &copy; 2022</p>
+        <!-- <img class="w-2/12" src="@/assets/leaf-frame-mirror.png" alt="frame"> -->
       </div>
     </section>
   </section>
@@ -77,7 +77,7 @@ import HeaderSection from '@/components/HeaderSection.vue'
 import Alert from '@/components/Alert.vue'
 import Gift from '@/components/Gift.vue'
 //import MessagesBox from '@/components/MessagesBox.vue'
-import wave from '@/assets/svg/wave.svg'
+import wave from '@/assets/svg/wave2.svg'
 
 // Form handler
 const form = ref(null)

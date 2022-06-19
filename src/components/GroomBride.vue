@@ -1,7 +1,7 @@
 <template>
-  <section class="w-full bg-gradient-to-b from-[#FFB704] via-amber-300 to-[#FFB704]">
+  <section class="w-full bg-gradient-to-b from-amber-600 to-orange-500">
     <section class="container-section">
-      <HeaderSection title="Groom & Bride" />
+      <HeaderSection title="Pengantin Pria & Wanita" />
       <div class="w-10/12 mx-auto text-center text-sm text-slate-800" >
         <img data-aos="zoom-in" src="@/assets/bismillah.png" class="w-8/12 mx-auto mb-3">
         <p 
@@ -18,7 +18,7 @@
       <div class="mt-12 text-center">
         <h1 
           data-aos="zoom-in"
-          class="kalam-font text-gray-700 font-bold text-2xl">Map Location</h1>
+          class="text-black font-medium text-xl">Map Location</h1>
         <iframe 
           data-aos="zoom-in"
           class="w-10/12 mx-auto mt-4 mb-8" height="300" 
@@ -27,7 +27,7 @@
           marginheight="0" marginwidth="0"></iframe>
         <a 
           data-aos="zoom-in"
-          class="px-5 py-2 rounded-lg bg-yellow-600 text-gray-100 mx-auto">Open Google Map</a>
+          class="px-5 py-2 rounded-lg bg-yellow-600 mx-auto">Open Google Map</a>
       </div>
       <Quote />
     </section>

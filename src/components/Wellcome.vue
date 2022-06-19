@@ -26,19 +26,19 @@
 </style>
 
 <template>
-  <section :class="isOpenInvitation ? 'close-page' : ''" class="bg-autumn-texture bg-cover w-full h-screen min-h-screen fixed inset-0 grid place-items-center z-50 bg-amber-200">
+  <section :class="isOpenInvitation ? 'close-page' : ''" class="bg-soccer-field-texture bg-cover bg-center w-full h-screen min-h-screen fixed inset-0 grid place-items-center z-50">
     <!-- Wedding couple -->
     <div class="w-6/12 text-center text-xs md:text-lg lg:text-xl">
       
       <div class="mt-5 animate__animated animate__zoomInUp">
-        <h1 class="kalam-font font-semibold text-5xl lg:text-6xl my-5 text-amber-800">{{ couples.join(' & ') }}</h1>
-        <p class="kalam-font text-amber-800 font-medium text-lg">We Are Getting Married</p>
-        <p class="font-medium text-amber-800">{{ weddingDate }}</p>
+        <p class="poppins-font text-black font-medium text-lg">Pernikahan</p>
+        <h1 class="lovers-quarre-font font-semibold text-5xl lg:text-6xl my-5 text-black">{{ couples.join(' & ') }}</h1>
+        <p class="font-medium text-black">{{ weddingDate }}</p>
        <!-- CTA -->
         <button 
           type="buton" 
           @click="openInvitation"
-          class="w-10/12 md:w-8/12 text-sm md-text-lg mt-6 font-medium z-50 border border-amber-800 text-gray-100 bg-amber-500 p-2 rounded-full pointer active:scale-90 hover:bg-amber-500 hover:text-gray-100 duration-300">
+          class="w-10/12 md:w-8/12 text-sm md-text-lg mt-6 font-medium z-50 border border-amber-800 text-gray-100 bg-black p-2 rounded-full pointer active:scale-90 hover:bg-white hover:text-black duration-300">
           <i class="fa-solid fa-book-open mr-1"></i>
           Buka undangan
        </button>

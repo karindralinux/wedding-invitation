@@ -3,7 +3,7 @@
     <template v-for="(value, name, index) in countdown" :key="index">
       <div 
         data-aos="zoom-in"
-        class="text-center border border-amber-800 w-4/12 bg-amber-500 p-2 rounded-xl">
+        class="text-center w-4/12 bg-black p-2 rounded-xl">
         <p class="text-3xl text-gray-100 mb-2">{{ value }}</p>
         <p class="kalam-font text-lg font-bold">{{ name }}</p>
       </div>
@@ -41,7 +41,7 @@ const createTimer = (target, container, cb) => {
 }
 
 const timer = setInterval(() => {
-  createTimer(new Date('2022-05-23 08:30').getTime(), countdown, () => {
+  createTimer(new Date('2022-08-23 08:30').getTime(), countdown, () => {
     clearInterval(timer)
   })
 }, 1000)

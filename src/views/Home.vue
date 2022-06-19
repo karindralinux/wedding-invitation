@@ -3,7 +3,7 @@
     <Wellcome></Wellcome>
     <MainCover v-if="isAudioPlay"></MainCover>
     <GroomBride v-if="isAudioPlay"></GroomBride>
-    <OurStory v-if="isAudioPlay"></OurStory>
+    <!-- <OurStory v-if="isAudioPlay"></OurStory> -->
     <GuestBook v-if="isAudioPlay"></GuestBook>
   </section>
 </template>
