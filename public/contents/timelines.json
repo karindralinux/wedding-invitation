@@ -5,14 +5,16 @@
 			"date": "Minggu, 10 Juli 2022",
 			"time": "09:00 WIB - 12:00 WIB",
 			"location": "Rumah Mempelai Wanita",
-			"address": "Jl. Purnasari 2 No.34 Rt.02 Rw.02 Kelurahan Kemijen Kecamatan Semarang Timur"
+			"address": "Jl. Purnasari 2 No.34 Rt.02 Rw.02 Kelurahan Kemijen Kecamatan Semarang Timur",
+			"map": "https://www.google.com/maps?q=-6.9594202,110.4374539&z=17&hl=en"
 		},
 		{
 			"title": "Resepsi",
 			"date": "Minggu, 10 Juli 2022",
 			"time": "12:00 WIB",
 			"location": "Rumah Mempelai Wanita",
-			"address": "Jl. Purnasari 2 No.34 Rt.02 Rw.02 Kelurahan Kemijen Kecamatan Semarang Timur"
+			"address": "Jl. Purnasari 2 No.34 Rt.02 Rw.02 Kelurahan Kemijen Kecamatan Semarang Timur",
+			"map":"https://www.google.com/maps?q=-6.9594202,110.4374539&z=17&hl=en"
 		}
 	]
 }
