@@ -1,26 +1,26 @@
 {
 	"couples": [
 		{
-			"name": "Fulan bin Fulan",
+			"name": "Danang Tri Pamungkas",
 			"sosmed": [
 				{ "icon": "fab fa-instagram", "link": "http://fake.com" },
 				{ "icon": "fab fa-facebook", "link": "http://fake.com" },
 				{ "icon": "fab fa-twitter", "link": "http://fake.com" }
 			],
-			"parents": ["Fulan", "Fulanah"],
-			"thumb": "/couples/couple-male.jpg",
-			"address": "Komplek Setia Budi Sentosa Blok 12A Nomor 6 Gang Serunai Asri - Brebes, Jawa Timur"
+			"parents": ["Agus Sunarto", "Sudiyati"],
+			"thumb": "/couples/pria.png",
+			"address": "Brambang Kenangan Rt.03 Rw.01 Karangawen, Demak"
 		},
 		{
-			"name": "Fulanah binti Fulan",
+			"name": "Tri Rinawati Hidayah, S.pd",
 			"sosmed": [
 				{ "icon": "fab fa-instagram", "link": "http://fake.com" },
 				{ "icon": "fab fa-facebook", "link": "http://fake.com" },
 				{ "icon": "fab fa-twitter", "link": "http://fake.com" }
 			],
-			"parents": ["Fulan", "Fulanah"],
-			"thumb": "/couples/couple-female.jpg",
-			"address": "Komplek Setia Budi Sentosa Blok 12A Nomor 6 Gang Serunai Asri - Brebes, Jawa Timur"
+			"parents": ["(Alm) Supardi", "Minarni"],
+			"thumb": "/couples/wanita.png",
+			"address": "Jl. Purnasari 2 No.34 Rt.02 Rw.02 Kelurahan Kemijen Kecamatan Semarang Timur"
 		}
 	]
 }
