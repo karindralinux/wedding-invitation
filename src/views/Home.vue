@@ -11,7 +11,6 @@
 <script setup>
 
 import MainCover from '@/components/MainCover.vue'
-import FirstSight from '@/components/FirstSight.vue'
 import GroomBride from '@/components/GroomBride.vue'
 import Timelines from '@/components/Timelines.vue'
 import OurGallery from '@/components/OurGallery.vue'

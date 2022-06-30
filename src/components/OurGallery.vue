@@ -24,8 +24,6 @@
 import axios from 'axios'
 import { ref, onMounted } from 'vue'
 import HeaderSection from '@/components/HeaderSection.vue'
-import OurVideo from '@/components/OurVideo.vue'
-import OurStory from '@/components/OurStory.vue'
 import wave from '@/assets/svg/wave.svg'
 
 const galleries = ref(null)
