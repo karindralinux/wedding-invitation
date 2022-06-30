@@ -12,9 +12,9 @@
         </div>
       </viewer>
       <!-- Our Story -->
-      <OurStory class="mt-10"></OurStory>
-      <!-- Our Video -->
-      <OurVideo class="mt-10"></OurVideo>
+       <!-- <OurStory class="mt-10"></OurStory> -->
+      <!-- Our Video --> 
+      <!-- <OurVideo class="mt-10"></OurVideo> -->
     </section>
   </section>
 </template>
@@ -30,7 +30,7 @@ import wave from '@/assets/svg/wave.svg'
 
 const galleries = ref(null)
 onMounted(() => {
-  axios.get('contents/galleries.json')
+  axios.get('galleries/galleries.json')
     .then( res => galleries.value = res.data.galleries )
     .catch( err => alert(err) )
 })

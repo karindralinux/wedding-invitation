@@ -1,9 +1,9 @@
 <template>
   <section>
     <MainCover id="mainCover"></MainCover>
-    
     <GroomBride></GroomBride>
     <Timelines v-on:goToGuestBook="navigationHandler('#guest-book')"></Timelines>
+    <OurGallery></OurGallery>
     <GuestBook id="guest-book"></GuestBook>
   </section>
 </template>
