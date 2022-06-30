@@ -88,13 +88,13 @@ const statusResponse = ref(false)
 const showAlert = ref(false)
 
 //URL
-const scriptURL = "https://script.google.com/macros/s/AKfycbzPgWJ7760OwwRlvjhrBMSM9HTVJL2wjDnDB3Up9ZOEIm09LMBwpmSpkQ6eGjAPGPCH/exec"
+const scriptURL = "https://script.google.com/macros/s/AKfycbyWjkTppeNqh-s4oFm6M7-XDY3sfR72LnkcV-REoIF9PwEPwSMhSKr1xvOyCK4gD-qB/exec"
 const sendMessage = ( evt ) => {
   evt.preventDefault()
   
   setTimeout( () => {
     // Post form
-    fetch(scriptURL, { method: 'POST', body: new FormData(form.value)})
+    fetch(scriptURL, { method: 'POST', body: JSON.stringify(Object.fromEntries(new FormData(form.value)))})
       .then( res => {
         console.log('Success: ', res)
         statusResponse.value = true
