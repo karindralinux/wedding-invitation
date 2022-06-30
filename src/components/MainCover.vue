@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full bg-center w-full flex bg-cover h-screen">
+  <section class="w-full bg-center w-full flex bg-couples bg-cover h-screen">
     <section class="container-section h-screen grid content-end">
       <div 
         class="animate__animated animate__fadeInUpBig text-gray-100 text-center bg-gray-800 bg-opacity-50 backdrop-blur-sm rounded-t-3xl px-6 py-10">
