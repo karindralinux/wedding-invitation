@@ -9,7 +9,8 @@
 			],
 			"parents": ["Agus Sunarto", "Sudiyati"],
 			"thumb": "/couples/pria.png",
-			"address": "Brambang Kenanga Rt.03 Rw.01 Karangawen, Demak"
+			"address": "Brambang Kenanga Rt.03 Rw.01 Karangawen, Demak",
+			"gender" : "Putra"
 		},
 		{
 			"name": "Tri Rinawati Hidayah, S.Pd",
@@ -20,7 +21,8 @@
 			],
 			"parents": ["(Alm) Supardi", "Minarni"],
 			"thumb": "/couples/wanita.png",
-			"address": "Jl. Purnasari 2 No.34 Rt.02 Rw.02 Kelurahan Kemijen Kecamatan Semarang Timur"
+			"address": "Jl. Purnasari 2 No.34 Rt.02 Rw.02 Kelurahan Kemijen Kecamatan Semarang Timur",
+			"gender" : "Putri"
 		}
 	]
 }
